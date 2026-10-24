@@ -1,0 +1,14 @@
+# Text file normalization
+# Generated on 2026-11-06
+# Language detection rules
+*.yaml linguist-detectable=false
+*.svg text
+public/*.html linguist-vendored
+
+vendor/* linguist-vendored
+*.jpeg binary
+*.min.js linguist-generated
+*.ts linguist-detectable
+src/**/*.tsx linguist-detectable
+
+build/* linguist-vendored
